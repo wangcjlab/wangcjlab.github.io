@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dr. Wang</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="./css/main.css">
+  <style>  
+    .container {  
+    text-align: justify; /* 尝试使文本两端对齐 */  
+  } 
+  .float-right {  
+    float: right; /* 让图片向右浮动 */  
+    margin-top: 2px; /* 为图片顶部留出空间，以便图片往下移动 */  
+    /* 如果你还需要为图片左侧留出空间以便文字环绕，可以保留或添加 margin-left */  
+    margin-left: 20px; /* 可选：为图片左侧留出空间，以便文字环绕或其他元素 */  
+    /* 你还可以根据需要添加其他样式，如宽度、高度等 */  
+    width: 210px; /* 设置图片的宽度 */  
+    /* 注意：通常图片的宽度会在HTML的img标签中通过width属性或CSS中单独设置，这里只是作为示例 */  
+}
+  
+.timeline dt {  
+    float: left;  
+    width: 150px; /* 根据需要调整宽度 */  
+    clear: left;  
+    text-align: right;  
+    font-weight: bold;  
+
+}  
+  
+.timeline dd {  
+    margin: 0 0 0 200px; /* 根据dt的宽度加上一些间距 */  
+    padding-top: 10px; /* 增加垂直间隔 */  
+}  
+.bold { font-weight: bold; }
+.line{line-height: 1.2; /* 设置所有<p>标签的行间距为1.2 */  }
+	.custom-section > div {  
+        margin-left: 1em; /* Indentation */  
+        line-height: 2; /* Reduced line height */  
+    }  
+	/* 基础样式 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 当屏幕宽度小于600px时，应用以下样式 */
+@media (max-width: 600px) {
+	.container {
+    flex-direction: column; /* 在移动端，将布局改为垂直方向 */
+  }
+  .content-box {
+    width: 100%;
+    padding: 10px;
+  }
+  .float-right {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  /* 其他移动端特定的样式调整 */
+  img {
+  max-width: 100%;
+  height: auto;
+}
+}
+</style>
+</head>
+
+
+<body>
+    <div class="content-box" style="width: 93%">
+		<header class="site-header" role="banner">
+		  <div class="wrapper navigation-wrapper has-logo">
+			<div class="navigation-links">
+			  <p><h1><b>Wang Research Group</b></h1></p>
+        <img loading="lazy" src="./浣江.png" alt width="8%" align="left">
+			  <img loading="lazy" src="./浙大.png" alt width="8%" align="left">
+			  </a>
+			</div>
+        <!-- <div class="navigation-logo"> -->
+          <!-- </div> -->
+          <nav class="site-nav">
+            <a href="#" class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path fill="#424242"
+                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+                <path fill="#424242"
+                d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+                <path fill="#424242"
+                d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
+              </svg>
+            </a>
+            <div class="trigger">
+				<div class="trigger">
+					<a class="page-link" href="./index.html">Home</a>
+					<a class="page-link active" href="./Dr.Wang.html">Dr. Wang</a>
+					<a class="page-link" href="./people.html">People</a>
+					<a class="page-link " href="./research.html">Research</a>
+					<a class="page-link " href="./publications.html">Publications</a>
+					<a class="page-link " href="./openings.html">Openings</a>
+					<a class="page-link " href="./GroupNews.html">Group News</a>
+				  </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          <article class="post">
+
+
+
+            <div class="post-content">
+              <ul>
+				<h4 class="pub-year-head"> <p style="text-indent: 1em;">Biography</p></h4>	
+				<img src="./图片1.png" alt="示例图片" class="float-right" width="auto">  
+				<div class="container">  
+					<p>  
+					  Dr. Chengjun Wang is the Platform “Hundred-Talents” Young Professor of Department of Engineering Mechanics at Zhejiang University, and the director of Intelligent Sensing and Biomimetic System Team at Huanjiang Laboratory. He received his B.S. degree from Southwest Jiaotong University in 2015 and Ph.D. degree from Zhejiang University in 2021. His current research interests include Bio-integrated Soft High-density Electrode Array and its Mechanics-Electrophysiology Coupling for Smart Rehabilitations, Mechanics of Flexible Structures for Tunable Electromagnetic Metasurfaces, and Bio-inspired Intelligent Robots. He has published over 30 peer-reviewed SCI journal papers (including several Cover Issue papers and ESI highly cited papers) under the support of the National Natural Science Foundation of China and China National Postdoctoral Program for Innovative Talents.  
+					</p>  
+				  </div>
+ 	  							      	<div class="container"> 				
+										 <p><b>王成军，浙江大学航空航天学院平台“百人计划”研究员，浣江实验室智能感知与仿生系统团队负责人。</b>分别于西南交通大学和浙江大学取得工程力学学士学位（2015）和固体力学博士学位（2021）。研究兴趣包括生物集成软电极阵列及其力-电生理耦合分析与康复评估应用、柔性结构力学与空间可展电磁超表面以及驱动-传感一体化智能仿生机器人。近年来在国家自然科学基金、博士后创新人才支持计划、博士后科学基金面上（一等）等项目资助下，在Science Advances、Advanced Materials、Advanced Functional Materials、npj Flexible Electronics、Cell Reports Physical Review、IJSS、JAM等期刊上累计发表SCI论文30余篇，包括多篇封面和ESI高被引论文。研究成果被国内外学者引用1700余次，H-index为18（Google Scholar），同时也得到人民日报、Science Daily等数十家媒体的关注。受理/授权国家发明专利10余项。荣获人社部首届“全国创新创业优秀博士后”荣誉称号。</p>
+									</li><br></div>
+
+									<h4 class="pub-year-head"><p style="text-indent: 1em;">Education & Experiences</p></h4>	
+									<dl class="timeline">  
+										<dt>07/2021 – 11/2023</dt>  
+										<dd style="padding-top: 0px;"><b>Postdoctoral Research Fellow</b><br>  
+											Center for Bioelectronics, Zhejiang University<br>  
+											Supervisors: Prof. Jikui Luo & Prof. Hongwei Ouyang</dd>  <p>
+											<dt>02/2016 – 01/2017</dt>  
+										<dd style="padding-top: 0px;"> <b>Ph.D. in Solid Mechanics</b><br>  
+											Department of Engineering Mechanics, Zhejiang University<br>  
+											Supervisors: Prof. Jizhou Song & Prof. Weiqiu Chen</dd>  <p>
+										
+											<dt>09/2015 – 06/2021</dt>  
+											<dd style="padding-top: 0px;"> <b> Visiting Scholar</b><br>  
+												Department of Mechanical Engineering, Houston University<br>  
+												Supervisor: Prof. Cunjiang Yu (now at UIUC)</dd>  <p>
+											
+
+												<dt>07/2015 – 09/2015</dt>  
+												<dd style="padding-top: 0px;"> <b> Visiting Student</b> <br>  
+													Center for Flexible Electronics Technology, Tsinghua University<br>  
+													Supervisor: Prof. Xue Feng</dd>  <p>											
+													
+													<dt>09/2011 – 06/2015</dt>  
+												<dd style="padding-top: 0px;"><b>BSc in Engineering Mechanics</b> <br>  
+													School of Mechanics and Engineering, Southwest Jiaotong University<br>  
+													Supervisor: Prof. Xiangyu Li </dd>  
+												
+
+									
+													<h4 class="pub-year-head"><p style="text-indent: 1em;">Selected Awards & Honors</p></h4>	
+										<P></P>
+										<div class="custom-section"> 
+											<div>2022 The fellowship of China National Postdoctoral Program for Innovative Talents (博士后创新人才支持计划入选者)</div>  
+										
+											<div>2021 首届全国创新创业优秀博士后，人力资源和社会保障部</div>
+											<div>2021 浙江大学优秀博士后特别资助</div>
+											<div>2021 首届全国博士后创新创业大赛全国银奖</div>
+											<div>2021 山东（青岛）博士后创新创业成果大赛金奖 (2021)</div>
+											<div>2021 “建行杯”第七届中国国际“互联网+”大学生创新创业大赛金奖 </div>
+											<div>2021 Best Poster Award, International Conference of Flexible Electronics</div>
+									
+									</div>
+									<br><p></p></p>
+
+		
+									  <p style="text-indent: 1em;line-height: 1.2;"><b>Serving as Reviewer for the following Journals:</b></p>
+									  <div class="custom-section"> 
+										<div>International Journal of Mechanical Sciences</div>
+										<div>Theoretical and Applied Mechanics Letters</div>
+										<div>IEEE Transactions on Neural Systems & Rehabilitation Engineering</div>
+										<div>Cyborg and Bionic Systems</div>
+									
+											<div>
+
+            
+            </article>
+
+          </div>
+        </main>
+
+        
+<script>
+  img.addEventListener('load', function() {  
+    console.log('Image loaded:', this.src);  
+});
+</script>
+      </div>
+    </body>
+    
+
+    </html>
+
+
+    </body>
+
+    </html>
+
+            

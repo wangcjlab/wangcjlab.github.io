@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="./css/main.css">
+  <style>  
+    .container {  
+    text-align: justify; /* 尝试使文本两端对齐 */  
+  } 
+  .blue-text {  
+    color: darkblue; /* 深蓝色 */  
+    font-weight: bold; /* 强调文本，因为b标签在span内可能不起作用 */
+  } 
+  @media screen and (max-width: 768px) {
+  .container {
+    text-align: justify; /* 保持两端对齐 */
+  }
+
+  p {
+    hyphens: auto; /* 允许在单词内断行，提高可读性 */
+    text-align: left; /* 在小屏幕上左对齐可能更易读 */
+  }
+
+  .blue-text {
+    display: inline; /* 保持内联显示，不独占一行 */
+  }
+}
+.media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 根据需要调整，例如使用 space-between 来使它们分布在一行中 */
+  width: 100%; /* 容器宽度设为100% */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.media-container video,
+.media-container img {
+  max-width: 100%; /* 设置最大宽度为100%，这样它们就不会超出容器宽度 */
+  height: auto; /* 高度自动调整以保持宽高比 */
+  margin: 0 10px; /* 根据需要调整边距 */
+}
+
+/* 可选：如果您希望在大屏幕上限制图片和视频的宽度，可以使用以下样式 */
+.media-container video,
+.media-container img {
+  width: 100%; /* 在小屏幕上，让它们填满容器 */
+  max-width: 600px; /* 在较大屏幕上，限制最大宽度，例如600px */
+  height: auto;
+  margin: 0 auto; /* 水平居中 */
+}
+
+/* 响应式设计，根据屏幕尺寸调整布局 */
+@media (max-width: 768px) {
+  .media-container {
+    flex-direction: column; /* 在较小的屏幕上，将元素垂直排列 */
+  }
+  
+  .media-container video,
+  .media-container img {
+    margin: 10px auto; /* 在垂直排列时调整间距，auto可以使元素在容器中水平居中 */
+  }
+}
+     
+</style>
+</head>
+
+
+<body>
+  <div class="content-box" style="width: 93%">
+    <header class="site-header" role="banner">
+      <div class="wrapper navigation-wrapper has-logo">
+        <div class="navigation-links">
+          <p><h1><b>Wang Research Group</b></h1></p>
+          <img loading="lazy" src="./浣江.png" alt width="8%" align="left">
+          <img loading="lazy" src="./浙大.png" alt width="8%" align="left">
+          </a>
+        </div>
+        <!-- <div class="navigation-logo"> -->
+          <!-- </div> -->
+          <nav class="site-nav">
+            <a href="#" class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path fill="#424242"
+                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+                <path fill="#424242"
+                d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+                <path fill="#424242"
+                d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
+              </svg>
+            </a>
+            <div class="trigger">
+              <a class="page-link" href="./index.html">Home</a>
+              <a class="page-link " href="./Dr.Wang.html">Dr. Wang</a>
+              <a class="page-link" href="./people.html">People</a>
+              <a class="page-link active" href="./research.html">Research</a>
+              <a class="page-link " href="./publications.html">Publications</a>
+              <a class="page-link " href="./openings.html">Openings</a>
+              <a class="page-link " href="./GroupNews.html">Group News</a>
+              </div>
+          </nav>
+        </div>
+      </header>
+
+
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          <article class="post">
+
+            <div class="post-content">
+              <ul>
+				<h4 class="pub-year-head"> <p style="text-indent: 1em;">Research Topics</p></h4>	
+				
+        <div class="container">
+          <p>
+            <span class="blue-text">R1.Bio-Integrated Soft Electrode Array and its Mechanics-Electrophysiology Coupling:</span>
+            To develop bio-integrated (epidermal/implantable) soft electrode arrays for capturing high-fidelity, high-density electrophysiology signals(EMG/ECG/EEG) and study the mechanics-electrophysiology coupling of the soft electrode arrays with soft tissues (muscle, heart and brain) for innovative applications in sports science and rehabilitation engineering (Figure 1).
+          </p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; ">  
+          <img loading="lazy"  src="研究1.png" alt="研究1" style="width: 80%;">  
+      </div>
+      <ul></ul>
+        <tdSS>
+        <div class="container">
+          <p>
+            <span class="blue-text">R2. Tunable and Deployable Electromagnetic Metasurfaces: </span>
+            To develop tunable and deployable lightweight electromagnetic metasurfaces on space based on mechanics reconfigurable structures and study the deformation mechanism and electromagnetic responses of the metasurfaces. (Figure 2).
+          </p>
+        </div>
+      <div style="display: flex; justify-content: center; align-items: center; ">  
+        <img loading="lazy"  src="./研究2.png" alt="研究1" style="width: 80%;">  
+    </div>
+    <ul></ul><p>
+     <td></td>
+      <div class="container">  
+        <p>  
+          <span class="blue-text"><b>R3. Biomimetic Intelligent Robots:</b> </span> 
+          To develop biomimetic intelligent robots integrated with soft, deformable sensing array for achieving smart interactions with their surrounding environments (Figure 3). 
+        </p>  
+      </div>  
+    <ul></ul><p> 
+      <div class="media-container" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <!-- 视频 -->
+        <video controls style="margin: 5px; width: 100%; max-width: 250px; height: auto;">
+            <source src="./2.mp4" type="video/mp4">
+            您的浏览器不支持 Video 标签。
+        </video>
+        
+        <!-- 图片1 -->
+        <img src="./研究3.png" alt="研究3" style="margin: 5px; max-width: 280px; height: auto;">
+        
+        <!-- 图片2 -->
+        <img src="./研究4.png" alt="研究4" style="margin: 5px; max-width: 250px; height: auto;">
+        
+   
+    </div>
+  
+  </ul>
+            </div>
+            
+            </article>
+
+          </div>
+        </main>
+
+        
+
+      </div>
+    </body>
+    <script>
+      img.addEventListener('load', function() {  
+        console.log('Image loaded:', this.src);  
+    });
+    </script>
+
+    </html>
